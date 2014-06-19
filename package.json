@@ -1,0 +1,23 @@
+{
+  "name": "gettsyburg",
+  "version": "0.0.1",
+  "description": "Eventemitter wrapper around pushState",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html5",
+    "history"
+  ],
+  "author": "Brandon Farmer",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^4.1.11",
+    "tape": "^2.13.3",
+    "testling": "^1.6.1"
+  }
+}
