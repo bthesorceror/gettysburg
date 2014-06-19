@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js"
   },
   "keywords": [
     "html5",
@@ -19,5 +19,14 @@
     "browserify": "^4.1.11",
     "tape": "^2.13.3",
     "testling": "^1.6.1"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/9..latest",
+      "firefox/3.5", "firefox/latest", "firefox/nightly",
+      "chrome/10", "chrome/latest", "chrome/canary",
+      "safari/5.1..latest"
+    ]
   }
 }
